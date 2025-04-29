@@ -137,7 +137,7 @@ plt.grid(True, linestyle='--', alpha=0.3)
 plt.tight_layout()
 plt.show()
 
-# Correlation Heatmap
+# Correlation Heatma
 plt.figure(figsize=(10,8))
 numeric_df = df.select_dtypes(include=[np.number])
 corr = numeric_df.corr()
