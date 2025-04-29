@@ -120,7 +120,7 @@ plt.grid(axis='y', linestyle='--', alpha=0.3)
 plt.tight_layout()
 plt.show()
 
-# Pie Chart: Electric Vehicle Type
+# Pie chart: Electric Vehicle Type
 plt.figure(figsize=(8,8))
 plt.pie(ev_type_counts, labels=ev_type_counts.index, autopct='%1.1f%%', startangle=140, colors=sns.color_palette('pastel'), wedgeprops={'edgecolor': 'black', 'linewidth': 0.5})
 plt.title("Electric Vehicle Type Distribution", fontsize=14)
