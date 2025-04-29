@@ -40,7 +40,7 @@ print("Top 10 makes:\n", df['make'].value_counts().head(10))
 # Count of EVs by city
 print("Top 10 cities:\n", df['city'].value_counts().head(10))
 
-# Filter: Vehicles with electric range > 200 miles
+# Filter: Vehicles with electric range > 200 mile
 high_range_vehicles = df[df['electric_range'] > 200]
 print("Vehicles with range > 200:\n", high_range_vehicles[['make', 'model', 'electric_range']].head())
 
