@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Load the Excel file
+# Load the Excel File
 df = pd.read_excel("C:/Users/cforc/OneDrive/Desktop/LPU classes/K23FK SEM4/INT375 DATA SCIENCE TOOLBOX PYTHON PROGRAMMING/Electric_Vehicle_Population_Data....xlsm")
 
 # Display first few rows
